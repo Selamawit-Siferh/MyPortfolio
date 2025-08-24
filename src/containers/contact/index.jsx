@@ -16,7 +16,6 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Validate name, email, and email format
     if (!name) {
       alert("Please enter your name.");
       return;
@@ -38,7 +37,6 @@ const Contact = () => {
       return;
     }
 
-    // EmailJS configuration
     const templateParams = {
       to_name: 'Selamawit',
       from_name: name,
@@ -46,17 +44,14 @@ const Contact = () => {
       message: description,
     };
 
-    // EmailJS service ID, template ID, and user ID
     const serviceId = 'service_gm3uafl';
     const templateId = 'template_zmiihpw';
     const userId = 'eyfiAWRIwU6iauKs7';
 
-    // Send email using EmailJS
     emailjs.send(serviceId, templateId, templateParams, userId)
       .then((response) => {
         const successMessage = `Email sent successfully! Status: ${response.status}, Response: ${response.text}`;
         alert(successMessage);
-        // Reset form fields
         setName("");
         setEmail("");
         setDescription("");
@@ -68,7 +63,6 @@ const Contact = () => {
   };
 
   const validateEmail = (email) => {
-    // Email validation regular expression
     const emailRegex = /^[^\s@]+@gmail\.com$/;
     return emailRegex.test(email);
   };

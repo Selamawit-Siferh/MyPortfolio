@@ -56,19 +56,7 @@ const Home = () => {
       Get Certificate
     </button>
 </div>
-        {/* <div className="home__contact-me">
-          <button onClick={handleNavigateCpage}>Hire Me</button>
-          <a href="Selamawit-resume.pdf" download="Selamawit resume.pdf">
-              <button className="btn higlithted-btn"> Get Resume</button>
-          </a>
-          <a href="educational documents.pdf" download="documents.pdf">
-              <button className="btn higlithted-btn"> Get Document</button>
-          </a>
-          <a href="certeficates.pdf" download="documents.pdf">
-              <button className="btn higlithted-btn"> Get Certeficate</button>
-          </a>
-        </div> */}
-      
+       
           <div className="colz">
             <div className="colz-icon">
               <a href="https://www.facebook.com/profile.php?id=100074340554894">
