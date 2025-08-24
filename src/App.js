@@ -45,6 +45,7 @@ function App() {
       <div className="App__main-page-content">
       <Routes>
         {/* selam */}
+        {/* haile */}
         <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
