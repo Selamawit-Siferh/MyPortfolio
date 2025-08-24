@@ -44,9 +44,7 @@ const NavBar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar_container">
-          {/* <Link to="/logo" className="navbar_container_logo">
-            <img src="logo.png" alt="" width={80}  height={70}/>
-          </Link> */}
+    
           <h1 className="navbar_container_logo">Selamawit</h1>
         </div>
         <ul className={`navbar_container_menu ${toggleIcon ? 'Active' : ''}`}>
