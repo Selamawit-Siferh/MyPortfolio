@@ -49,7 +49,7 @@
       font-weight: 500;
       background: white;
       color: red;
-      margin: 5px; // Ensure spacing between buttons
+      margin: 5px;
 
       &:hover {
         background: var(--yellow-theme-main-color);
@@ -99,21 +99,21 @@
 }
 @media screen and (max-width: 550px) {
   .home__text_wrapper h1 {
-    font-size: 10vw; // Larger size for smaller screens
-    line-height: 12vw; // Maintain proportion
+    font-size: 10vw; 
+    line-height: 12vw; 
   }
 }
 
 @media screen and (min-width: 551px) and (max-width: 768px) {
   .home__text_wrapper h1 {
-    font-size: 8vw; // Adjust size for medium screens
+    font-size: 8vw;
     line-height: 10vw;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .home__text_wrapper h1 {
-    font-size: 6vw; // Smaller size for larger screens
+    font-size: 6vw; 
     line-height: 8vw;
   }
 }
