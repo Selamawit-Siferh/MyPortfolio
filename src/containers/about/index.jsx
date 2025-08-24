@@ -78,20 +78,7 @@ const About = () => {
             start={{ transform: "translateX(600px)" }}
             end={{ transform: "translate(0px)" }}
           >
-            {/* <div className="about__content__servicesWrapper__innerContent">
-              <div>
-                <FaDev size={60} color="var(--yellow-theme-main-color)" />
-              </div>
-              <div>
-                <DiAndroid size={60} color="var(--yellow-theme-main-color)" />
-              </div>
-              <div>
-                <FaDatabase size={60} color="var(--yellow-theme-main-color)" />
-              </div>
-              <div>
-                <DiApple size={60} color="var(--yellow-theme-main-color)" />
-              </div>
-            </div> */}
+          
 
             <div className="about__content__servicesWrapper__innerContent">
               <div>
