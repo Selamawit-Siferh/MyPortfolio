@@ -4,17 +4,17 @@
   align-items: center;
   padding: 20px;
   border-bottom: 1px dashed var(--yellow-theme-main-color);
-  flex-wrap: wrap; // Allow wrapping on smaller screens
+  flex-wrap: wrap; 
   
   h2 {
-    font-size: 2rem; // Use rem for scalability
+    font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.5px;
-    line-height: 1.2; // Adjust line height for better spacing
+    line-height: 1.2;
     text-transform: capitalize;
     color: var(--yellow-theme-main-color);
-    flex-grow: 1; // Allow header to take available space
-    margin: 0; // Remove default margin for better alignment
+    flex-grow: 1; 
+    margin: 0;
   }
   
   span {
@@ -26,14 +26,14 @@
   }
 }
 
-// Media Queries for Responsiveness
+
 @media (max-width: 768px) {
   .wrapper {
-    padding: 15px; // Adjust padding for smaller screens
+    padding: 15px; 
     
     h2 {
-      font-size: 1.5rem; // Reduce font size for better fit
-      line-height: 1.2; // Maintain line height
+      font-size: 1.5rem; 
+      line-height: 1.2; 
     }
     
     span {
