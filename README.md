@@ -74,7 +74,7 @@ npm run deploy
 
 ## 4. Accessing Your Website
 
-After deployment, your portfolio will be available at:
+After deployment, your portfolio will be available at:  in vercel deployed like this
 
 
-https://<your-github-username>.github.io/<repository-name>/
+https://portfolio-puxyyw3jx-selamawits-projects-9eef308c.vercel.app/
