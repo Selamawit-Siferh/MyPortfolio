@@ -77,8 +77,6 @@ const About = () => {
             delay={1}
             start={{ transform: "translateX(600px)" }}
             end={{ transform: "translate(0px)" }}
-          >
-          
 
             <div className="about__content__servicesWrapper__innerContent">
               <div>
