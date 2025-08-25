@@ -41,7 +41,7 @@ const About = () => {
       />
 
       <div className="about__content">
-        {/* Personal Info & Job Summary */}
+     
         <div className="about__content__personalWrapper">
           <Animate
             play
@@ -79,7 +79,6 @@ const About = () => {
           </Animate>
         </div>
 
-        {/* Skills / Services */}
         <div className="about__content__servicesWrapper">
           <Animate
             play
