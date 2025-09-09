@@ -9,9 +9,7 @@ const Home = () => {
     navigate('/contact');
   };
   const handleDownloadAndOpen = (fileUrl, downloadName) => {
-  // Open in new tab
   window.open(fileUrl, '_blank', 'noopener,noreferrer');
-  // Trigger download
   const link = document.createElement('a');
   link.href = fileUrl;
   link.download = downloadName;
