@@ -39,9 +39,7 @@ function App() {
       options={Particle}
       // init={handleInit}
       />
-      {/* nav bar */}
       <NavBar />
-      {/* main page content */}
       <div className="App__main-page-content">
       <Routes>
         <Route index path="/" element={<Home />} />
